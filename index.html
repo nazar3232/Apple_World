@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Kanit:wght@700&family=Lilita+One&family=Linden+Hill&display=swap"
+      rel="stylesheet"
+    />
+    <title>Apple World</title>
+  </head>
+  <body>
+    <!-- Шапка -->
+    <header>
+      <div class="container__header" id="section1">
+        <div class="position__header">
+          <a href="#">
+            <img class="icon_search" src="./img/icon_search.svg" alt="logo"
+          /></a>
+          <a href="#">
+            <img class="logo" src="./img/Group 35.svg" alt="logo"
+          /></a>
+          <nav class="nav" id="nav" data-nav>
+            <p>09:00 - 21:00 (пн-нд)</p>
+            <ul class="list-menu">
+              <li class="list-menu-item"><a href="#section1">Головна</a></li>
+              <li class="list-menu-item"><a href="#section2">Про нас</a></li>
+              <li class="list-menu-item"><a href="#section3">Продукція</a></li>
+              <li class="list-menu-item"><a href="#section4">Контакти</a></li>
+            </ul>
+          </nav>
+          <button
+            class="burger"
+            data-burger
+            aria-label="Відкрити меню"
+            aria-expanded="false"
+          >
+            <span class="burger__line"></span>
+          </button>
+        </div>
+        <div class="container__block">
+          <h1>Apple World</h1>
+          <p>офіційний магазин Apple</p>
+          <p>техніки у Львові</p>
+        </div>
+
+        <div class="header__button"><button>Замовити</button></div>
+
+        <div class="text-end__header__container">
+          <p class="text-end__header">
+            Затишний простір на твої <br />
+            «яблучні» бажання.
+          </p>
+        </div>
+      </div>
+    </header>
+    <!-- Головна -->
+    <main>
+      <!-- Section Hero -->
+      <section class="hero" id="section2">
+        <div class="container__main__hero__wrap">
+          <div class="hero__link__container">
+            <div class="hero__link">
+              <a href="#">Learn more ></a>
+            </div>
+          </div>
+          <div class="container__main__hero">
+            <h2>Iphone 15</h2>
+            <p>New camera. New design.</p>
+            <p>Newphoria.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Watch -->
+      <section class="watch">
+        <div class="watch__container">
+          <div class="hero__link__container">
+            <div class="hero__link_watch">
+              <a href="#">Learn more ></a>
+            </div>
+          </div>
+          <div class="watch__title">
+            <img class="emblema__apple" src="./img/Group 8.svg" alt="emblema" />
+            <h2>Series 9</h2>
+            <h3>Smarter. Brighter. Mightier.</h3>
+
+            <div class="photo__watch"><img src="./img/Rectangle 14.png" alt="watch"/>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <video autoplay loop muted>
+          <source src="img/applewatch.mp4" type="video/mp4">
+        </video>
+        
+      <!-- Section Technology -->
+      <section class="technology" id="section3">
+        <div class="container__technology">
+          <ul class="technology_list">
+            <li>
+              <h3>Iphone <br />Товарів: 234</h3>
+              <a href="">Переглянути моделі > </a>
+              <img src="./img/Rectangle 9.png" alt="iphone" height="366" />
+            </li>
+            <li>
+              <h3>Mac <br />Товарів: 167</h3>
+              <a href="">Переглянути моделі > </a>
+              <img src="./img/Rectangle 10.png" alt="macbook" />
+            </li>
+            <li>
+              <h3>Ipad <br />Товарів: 108</h3>
+              <a href="">Переглянути моделі > </a>
+              <img src="./img/Rectangle 11.png" alt="ipad" />
+            </li>
+          </ul>
+
+          <ul class="technology_list">
+            <li>
+              <h3>Apple Watch <br />Товарів: 97</h3>
+
+              <a href="">Переглянути моделі > </a>
+              <img src="./img/Rectangle 12.png" alt="iwatch" height="338" />
+            </li>
+            <li>
+              <h3>
+                Аксесуарів<br />
+                Товарів: 6078
+              </h3>
+
+              <a href="">Переглянути моделі > </a>
+              <img src="./img/Rectangle 13.png" alt="accessory" />
+            </li>
+            <li>
+              <h3>AirPods <br />Товарів: 46</h3>
+
+              <a href="">Переглянути моделі > </a>
+              <img src="./img/Rectangle 19.png" alt="airpods" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+      <section class="price-block">
+        <table>
+          <tr><th>Діагностика телефону</th></tr>
+          <tr><td class="td-price">200 грн</td></tr>
+          <tr><td>
+            <ul>
+              <li>Оцінка вартості</li>
+              <li>Ємність батареї</li>
+              <li>Захист від вірусів</li>
+            </ul>
+          </td></tr>
+          <tr><td><button>Замовити</button></td></tr>
+        </table>
+
+        <table>
+          <tr><th>Чистка телефону</th></tr>
+          <tr><td class="td-price">400 грн</td></tr>
+          <tr><td>
+            <ul>
+              <li>Чистка динаміків</li>
+              <li>Полірування корпусу</li>
+              <li>Покриття склом</li>
+            </ul>
+          </td></tr>
+          <tr><td><button>Замовити</button></td></tr>
+        </table>
+
+        <table>
+          <tr><th>Ремонт телефону</th></tr>
+          <tr><td class="td-price">Від 2000 грн</td></tr>
+          <tr><td>
+            <ul>
+              <li>Заміна екрану</li>
+              <li>Заміна батареї</li>
+              <li>Заміна камери</li>
+            </ul>
+          </td></tr>
+          <tr><td><button>Замовити</button></td></tr>
+        </table>
+      </section>
+
+
+      <section class="contact">
+        <div class="form">
+          <div class="title">Напишіть нам</div>
+          <div class="input-container ic1">
+            <input id="firstname" class="input" type="text" placeholder=" " />
+            <label for="firstname" class="placeholder">Ім'я</label>
+          </div>
+          <div class="input-container ic2">
+            <input id="lastname" class="input" type="text" placeholder=" " />
+            <label for="lastname" class="placeholder">Email</label>
+          </div>
+          <div class="input-container ic2">
+            <input id="email" class="input" type="text" placeholder=" " />
+            <label for="email" class="placeholder">Повідомлення</label>
+          </div>
+          <button type="text" class="submit">Надіслати</button>
+        </div>
+      </section>
+
+    </main>
+    <!-- Підвал -->
+    <footer>
+      <address id="section4">
+        <div class="social__networking">
+          <img class="logo-end" src="./img/Group 11.svg" alt="logo" />
+          <ul class="social__networking__list">
+            <li>
+              <img
+                src="./img/free-icon-instagram-3955024 1.svg"
+                alt="instagram"
+              />
+            </li>
+            <li>
+              <img src="./img/free-icon-viber-3938039 1.svg" alt="viber" />
+            </li>
+            <li><img src="./img/image 4.svg" alt="tiktok" /></li>
+          </ul>
+        </div>
+        <div class="catolog">
+          <ul class="catolog__list">
+            <h3>Каталог:</h3>
+            <li>Iphone</li>
+            <li>Mac</li>
+            <li>Ipad</li>
+            <li>Apple Watch</li>
+            <li>Аксесуарів</li>
+            <li>AirPods</li>
+          </ul>
+
+          <ul class="contacs__list">
+            <h3>Контактна інформація:</h3>
+            <li>+380688613597</li>
+            <li>voloshyn.nazik@gmail.com</li>
+          </ul>
+        </div>
+        <div class="location">
+          <p>Львів, вул. І.Величковського, 1 б</p>
+
+          <ul class="list__card">
+            <li><img src="./img/free-icon-visa-5968299 1.svg" alt="visa" /></li>
+            <li>
+              <img src="./img/free-icon-card-11895141 1.svg" alt="mastercard" />
+            </li>
+            <li>
+              <img
+                src="./img/free-icon-apple-pay-5968279 1.svg"
+                alt="applepay"
+              />
+            </li>
+          </ul>
+        </div>
+      </address>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
